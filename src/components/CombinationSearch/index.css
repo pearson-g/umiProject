@@ -1,0 +1,11 @@
+.ft_l {
+  float: left;
+}
+.searchgroup {
+  float: left;
+  margin-right: 16px;
+  margin-left: 16px;
+}
+.ft_r {
+  float: right;
+}

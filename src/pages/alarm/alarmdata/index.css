@@ -1,0 +1,41 @@
+.ft_r {
+  float: right;
+}
+.ft_l {
+  float: left;
+}
+.cbg {
+  background-color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0;
+  min-height: 48px;
+  line-height: 48px;
+}
+.ant-layout-content :global .anticon {
+  font-size: 18px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.colorred {
+  color: #f60;
+}
+.ant-table :global .ant-table-tbody > tr > td {
+  padding: 8px 10px;
+}
+.bzmenu {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bzmenu .town_name {
+  float: left;
+  color: #43425D;
+}
+.thead_two :global .ant-table .ant-table-thead > tr > th {
+  color: #A3A6B4;
+}
+.color_bd {
+  color: #43425D;
+  font-weight: bold;
+}

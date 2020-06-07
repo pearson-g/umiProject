@@ -1,0 +1,67 @@
+.ft_r {
+  float: right;
+}
+.ft_l {
+  float: left;
+}
+.cbg {
+  background-color: white;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0;
+  min-height: 48px;
+  line-height: 48px;
+}
+.ant-layout-content :global .anticon {
+  font-size: 18px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.ant-table :global .ant-table-tbody > tr > td {
+  padding: 8px 10px;
+}
+.bgyy {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  background-color: white;
+}
+.bgyy .cbg {
+  border-bottom: 1px solid #EAF0F4;
+  overflow: auto;
+}
+.bgyy .cardlist {
+  background: #F7F7F9;
+  padding: 30px;
+}
+.bgyy .cardlist .cardlist_info {
+  margin-bottom: 16px;
+}
+.bgyy .cardlist :global .ant-card {
+  height: 384px;
+}
+.bgyy .cardlist :global .ant-card .ant-statistic-content-value {
+  font-size: 36px;
+}
+.bgyy .cardlist .title {
+  margin-left: 0px;
+  margin-top: 0px;
+  font-size: 18px;
+  color: #43425D;
+}
+.bgyy .dyph .title {
+  margin-left: 32px;
+  margin-top: 16px;
+  font-size: 18px;
+  color: #43425D;
+}
+.bgyy .dyph .title span {
+  font-size: 14px;
+  margin-left: 4px;
+}
+.bzmenu {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+.bzmenu .town_name {
+  float: left;
+}

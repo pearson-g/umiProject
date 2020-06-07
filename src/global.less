@@ -1,0 +1,136 @@
+@import '~antd/es/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+@text-color: #43425D;
+.colorWeak {
+  filter: invert(80%);
+}
+
+.ant-layout {
+  min-height: 100vh;
+  background-color: #F0F0F7 !important;
+}
+canvas {
+  display: block;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul,
+ol {
+  list-style: none;
+}
+@media (max-width: @screen-xs) {
+  .ant-table {
+    width: 100%;
+    overflow-x: auto;
+    &-thead > tr,
+    &-tbody > tr {
+      > th,
+      > td {
+        white-space: pre;
+        > span {
+          display: block;
+        }
+      }
+    }
+  }
+}
+@layout-body-background: #F0F0F7;
+.ant-btn,.ant-input, .ant-input-group {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, .05) ;
+}
+@border-color-base: #EAF0F4; // base border outline a component
+.ant-breadcrumb{
+  margin: 0 0 10px !important;
+}
+.color_bd{
+    color: #43425D;
+    font-weight: bold;
+}
+.bzmenu{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    .town_name{
+        float: left;
+        color: #43425D;
+    }
+}
+.searchgroup{
+    margin-right: 16px;
+    margin-left: 16px;
+}
+.thead_one{
+    :global{
+       .ant-table .ant-table-thead > tr > th{
+        padding: 4px 8px;
+        color: #A3A6B4;
+        } 
+    }
+    
+}
+.ft_r{
+    float: right;
+}
+.ft_l{
+    float: left;
+}
+:global{
+  .ant-pro-sider-menu-logo{
+    padding-left: 6px;
+  }
+  .ant-pro-sider-menu-logo img{
+    height: 26px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #43425D;
+  font-weight: 500;
+}
+:global{
+   .clickRowStyl{
+       background-color: @primary-color !important;
+       color: white;
+       font-weight: bold;
+       &:hover >td{
+            background-color:@primary-color !important;
+        }
+    }// 被选中的表格行的样式
+    .ant-table-tbody{
+        tr{
+           background-color: #F5F6FA; 
+        }
+        tr:nth-child(odd){
+        background-color: #ffffff;
+      }
+      }// 表格行间隔不同背景色的样式
+    
+   .ant-menu-item{
+      .anticon{
+        float: right;
+        margin-top: 12px;
+        color: #A3A0FB;
+        display: none;
+      }
+      &:hover{
+        .anticon{
+        display: block;
+      }
+      }
+   }
+}
