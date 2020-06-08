@@ -283,6 +283,25 @@ export default {
               ],
             },
             {
+              name: 'editor',
+              icon: 'icon-baojing',
+              path: '/editor',
+              routes: [
+                {
+                  name: 'koni',
+                  path: '/editor/koni',
+                  icon: 'icon-shoucang1',
+                  component: './editor/koni',
+                },
+                {
+                  name: 'visu',
+                  path: '/editor/visu',
+                  icon: 'icon-shoucang1',
+                  component: './editor/visu',
+                }
+              ],
+            },
+            {
               name: 'report',
               icon: 'icon-tongji',
               path: '/report',
